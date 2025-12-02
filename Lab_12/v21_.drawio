@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.2">
+  <diagram name="Страница-1" id="Ybz6GXj7jnhkp6QWNWk3">
+    <mxGraphModel dx="1657" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-4" edge="1" parent="1" source="dGsffwx2oDyeB3OPn8a6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dGsffwx2oDyeB3OPn8a6-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="НАЧАЛО" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-6" edge="1" parent="1" source="dGsffwx2oDyeB3OPn8a6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dGsffwx2oDyeB3OPn8a6-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-3" parent="1" style="whiteSpace=wrap;html=1;" value="Sum = 0.0" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-8" edge="1" parent="1" source="dGsffwx2oDyeB3OPn8a6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dGsffwx2oDyeB3OPn8a6-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="K &lt;= 0 ИЛИ K &gt; M" vertex="1">
+          <mxGeometry height="100" width="130" x="335" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-10" edge="1" parent="1" source="dGsffwx2oDyeB3OPn8a6-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dGsffwx2oDyeB3OPn8a6-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-7" parent="1" style="whiteSpace=wrap;html=1;" value="Возврат 0.0" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-12" edge="1" parent="1" source="dGsffwx2oDyeB3OPn8a6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dGsffwx2oDyeB3OPn8a6-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Для j = 1 до N" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-14" edge="1" parent="1" source="dGsffwx2oDyeB3OPn8a6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dGsffwx2oDyeB3OPn8a6-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-11" parent="1" style="whiteSpace=wrap;html=1;" value="Sum = Sum + A[K-1][j-1]" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-18" edge="1" parent="1" source="dGsffwx2oDyeB3OPn8a6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="dGsffwx2oDyeB3OPn8a6-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-13" parent="1" style="whiteSpace=wrap;html=1;" value="Возврат Sum" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="dGsffwx2oDyeB3OPn8a6-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="КОНЕЦ" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
